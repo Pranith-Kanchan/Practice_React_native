@@ -10,9 +10,21 @@
     "test": "jest"
   },
   "dependencies": {
+    "@apollo/client": "^3.13.9",
+    "@react-native/new-app-screen": "0.80.0",
+    "@react-navigation/native": "^7.1.17",
+    "@react-navigation/native-stack": "^7.3.25",
+    "graphql": "^16.11.0",
+    "openai": "^5.9.0",
     "react": "19.1.0",
     "react-native": "0.80.0",
-    "@react-native/new-app-screen": "0.80.0"
+    "react-native-base64": "^0.2.1",
+    "react-native-gesture-handler": "^2.28.0",
+    "react-native-reanimated": "^4.0.2",
+    "react-native-safe-area-context": "^5.6.0",
+    "react-native-screens": "^4.13.1",
+    "react-native-worklets": "^0.4.1",
+    "sha256": "^0.2.0"
   },
   "devDependencies": {
     "@babel/core": "^7.25.2",
