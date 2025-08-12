@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { View, Text, StyleSheet, ActivityIndicator, TextInput, TouchableOpacity, ScrollView } from 'react-native';
+import { View, Text, StyleSheet, ActivityIndicator, TextInput, TouchableOpacity, ScrollView ,Dimensions } from 'react-native';
 import { useLazyQuery, gql } from '@apollo/client';
 import Animated, { 
   FadeInDown, 
@@ -29,6 +29,10 @@ const GET_COUNTRY = gql`
     }
   }
 `;
+
+const { width } = Dimensions.get('window');
+
+console.log("witdhh----->",width);
 
 const ProfileScreen = ({ route, navigation }) => {
     const initialCode = route.params?.countryCode || '';
